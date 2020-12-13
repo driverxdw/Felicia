@@ -1,0 +1,8 @@
+{
+    "reverse_shell_rule":[
+        {
+            "id":"R10000",
+            "regex":"socat\\s+TCP4:\\w+\\.\\w+\\.\\w+\\.\\w+:(\\w+)\\s+.*"
+        }
+    ]
+}

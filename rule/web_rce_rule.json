@@ -1,0 +1,25 @@
+{
+    "web_rce_rule":[
+        {
+            "id":"R20000",
+            "pname":".*sh",
+            "contain":"",
+            "ppname":"apache[\\d]*",
+            "desc":"apache命令执行"
+        },
+        {
+            "id":"R20001",
+            "pname":"",
+            "contain":"tomcat",
+            "ppname":"java",
+            "desc":"tomcat命令执行"   
+        },
+        {
+            "id":"R20002",
+            "pname":"",
+            "contain":"spring",
+            "ppname":"java",
+            "desc":"spring命令执行"   
+        }
+    ]
+}
